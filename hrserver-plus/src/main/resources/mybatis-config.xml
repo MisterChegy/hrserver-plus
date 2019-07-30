@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING" />
+        <!--延迟加载总开关-->
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <!--侵入式延迟加载开关-->
+        <!--3.4.1版本之前默认是true，之后默认是false-->
+        <setting name="aggressiveLazyLoading" value="false"/>
+        <setting name="lazyLoadTriggerMethods"  value=""/>
+    </settings>
+</configuration>
